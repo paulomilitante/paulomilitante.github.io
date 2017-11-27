@@ -3,17 +3,17 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1,
 h2,
 .bio {
-	color: #FDF5E6;
+	color: #FFEFD5;
 }
 
 h1 {
