@@ -3,11 +3,11 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: 'Cutive Mono', monospace;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 p {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Amatic SC', cursive;
 }
 
 h1,
