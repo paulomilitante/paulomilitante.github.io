@@ -1,0 +1,41 @@
+/*CSS Reset*/
+
+* {
+		/* remove default paddings and margin*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*To avoid overflow*/
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.wrapper {
+
+	width: 700px;
+	margin: 0 auto;
+	background-color: lightgrey;
+}
+
+header {
+
+	background-color: #09C;
+	height: 70px;
+	line-height: 70px;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	text-transform: uppercase;
+
+
+}
+
+footer {
+
+	background-color: #a6a6a6;
+	height: 70px;
+	line-height: 70px;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+
+}
