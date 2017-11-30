@@ -1,0 +1,106 @@
+/*p {
+	background-color: yellow;
+}
+
+#para1 {
+	background-color: red;
+}
+
+.paragraphs {
+	background-color: orange;
+}
+
+a[target] {
+	color: green;
+}
+
+a[target="_top"] {
+	color: indigo;
+}
+
+* {
+	background-color: green;
+}
+
+h5 + a {
+	background-color: red;
+}
+
+h5 ~ a {
+	background-color: yellow;
+}
+
+div > a {
+	background-color: blue;
+}
+
+div a {
+	background-color: yellow;
+}
+
+a:link {
+	color: orange;
+	background: black;
+}
+
+a:visited {
+	color: yellow;
+	background: blue;
+}
+
+a:focus {
+	background-color: black;
+	color: red;
+}
+
+a:hover {
+	background-color: blue;
+	color: orange;
+}
+
+a:active,
+h3:active,
+h5:active {
+	background-color: yellow;
+	color: black;
+}
+
+li:first-child {
+	background-color: black;
+	color: yellow;
+}
+
+p:first-child,
+p:last-child {
+	background-color: black;
+	color: yellow;
+}
+
+
+li:nth-child(odd),
+p:nth-child(even) {
+	background-color: black;
+	color: orange;
+}
+
+h3,
+h5,
+p,
+li,
+a {
+	background-color: black;
+	color: white;
+}*/
+
+p {
+	background-color: black;
+	color: yellow;
+}
+#lastChild {
+	background-color: green;
+	color: blue;
+}
+.thirdPara {
+	background-color: blue;
+	color: red;
+}
