@@ -1,0 +1,72 @@
+/*CSS Reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+.wrapper {
+	background-color: white;
+	width: 80%;
+	margin:	0 auto;
+}
+
+/*BlockTypes*/
+h1,
+p {
+	background-color: lightblue;
+}
+
+h1 {
+	padding: 50px;
+	border: 1px solid #5d6063;
+}
+
+p {
+	padding: 20px 0 20px 10px;
+	margin-bottom: 50px;
+}
+
+/*Inline Types*/
+em,
+strong {
+	background-color: yellow;
+	display: inline; /*default behavior*/
+}
+
+strong {
+	/*padding: 50px;
+	margin: 50px;*/
+}
+
+/*Generic Boxes (div and span)*/
+
+div	{
+	background-color: skyblue;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid #5d6063;
+	border-radius: 5px;
+	width: 50%;
+}
+
+span {
+	font-size: 2em;
+	color: red;
+}
+
+button {
+	padding: 20px 30px;
+	border: 1px solid #000;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	/*width: 60px;*/
+	margin: 0 auto;
+	display: block;
+}
