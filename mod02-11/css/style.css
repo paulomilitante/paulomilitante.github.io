@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+form,
+blockquote,
+abbr,
+h4,
+nav,
+ins,
+sup,
+li,
+dl,
+footer,
+header,
+span,
+button,
+sub,
+fieldset,
+h5,
+q,
+del,
+aside,
+figure,
+h3,
+small,
+h6,
+ol,
+hr,
+p,
+div,
+input[type="number"],
+ul,
+table,
+dt,
+dd,
+input[type="radio"],
+textarea,
+input[type="text"],
+input[type="file"],
+article,
+figcaption,
+label {
+	background-color: yellow;
+	border: 1px solid black;	
+}
+
+
+header,
+span,
+a,
+button,
+img,
+input[type="checkbox"],
+sub,
+fieldset {
+	height: 50px;
+}
+
+h5,
+q,
+del,
+aside,
+figure,
+input[type="submit"],
+h3,
+small {
+	width: 80%;
+}
+
+h6,
+ol,
+hr,
+p,
+div,
+input[type="number"],
+ul,
+table {
+	padding: 30px;
+}
+
+dt,
+dd,
+input[type="radio"],
+textarea,
+input[type="text"],
+input[type="file"],
+article,
+figcaption,
+label {
+	margin: 30px;
+}
