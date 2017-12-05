@@ -111,7 +111,7 @@ main.wrapper > p {
 .submenu {
 	height: 120px;
 	padding: 20px 40px;
-	margin: 0;
+	margin: 0 auto;
 	width: 45%;
 	display: inline-block;
 }
@@ -119,6 +119,7 @@ main.wrapper > p {
 .submenu {
 	text-align: right;
 	color: white;
+	float: right;
 }
 
 
@@ -131,8 +132,7 @@ main.wrapper > p {
 .menuSubscribe {
 	color: white;
 	text-decoration: none;
-	margin: 20px;
-
+	margin-right: 40px;
 }
 	
 
@@ -200,7 +200,7 @@ div.content > p {
 
 div div.column {
 	background-image: url('../image/bg2.jpg');
-	height: 160px;
+	height: 120px;
 	width: 31%;
 	margin: 20px 1.16%;
 	float: left;
@@ -221,7 +221,7 @@ h3.username + p {
 	overflow: hidden;
 	position: relative;
 	line-height: 1.2em;
-	max-height: 3.6em;
+	max-height: 2.5em;
 	text-align: left;
 	margin-right: -1em;
 	padding-right: 30px;
