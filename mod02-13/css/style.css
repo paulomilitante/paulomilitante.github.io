@@ -44,7 +44,7 @@ div.logocontainer {
 	color: #156391;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
-	font-size: 1.6vh;
+	font-size: 1.8vh;
 	text-decoration: none;
 	text-align: center;
 }
@@ -52,6 +52,7 @@ div.logocontainer {
 .navlist > ul > li > a:hover {
 	box-shadow: 5px 0px #156391;
 	z-index: 9999999999999;
+	font-weight: bold;
 }
 
 .navlist > ul > li > a:active {
@@ -65,7 +66,7 @@ footer {
 	left: 0;
 	width: 20vw;
 	text-align: center;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
 	font-size: 1.3vw;
 }
@@ -96,6 +97,7 @@ footer > a > i {
 	top: 0;
 	left: 20vw;
 	padding: 1vh;
+	box-shadow: 1px 1px 10px #edf5e1;
 	z-index: 999999999999999999999999999;
 	color: #156391;
 	font-size: 2vh;
@@ -146,7 +148,7 @@ div.homecontent > h1 + p {
 
 h1 + p > span {
 	color: #156391;
-	text-shadow: 2px 2px 5px #fff;
+	text-shadow: 2px 2px 10px #fff;
 }
 
 /*ABOUT*/
@@ -169,13 +171,13 @@ div.aboutcontent {
 	transform: translate(-50%,-50%);
 	width: 80%;
 	font-size: 4vh;
-	font-family: 'PT Serif', serif;
+	font-family: 'Lato', sans-serif;
 	color: #156391;
 }
 
 div.aboutcontent > h3 + p {
 	font-size: 2vh;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 5vh auto;
 	color: black;	
 
@@ -204,15 +206,16 @@ div.servicescontent {
 	transform: translate(-50%,-50%);
 	width: 80%;
 	font-size: 4vh;
-	font-family: 'PT Serif', serif;
+	font-family: 'Lato', sans-serif;
 	color: #156391;
 }
 
 div.servicescontent > h3 + p {
 	font-size: 2vh;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 5vh auto;
-	color: black;	
+	text-shadow: 1px 1px 1px #000;
+	color: #edf5e1;	
 }
 
 /*PROJECTS*/
@@ -235,13 +238,13 @@ div.projectscontent {
 	transform: translate(-50%,-50%);
 	width: 80%;
 	font-size: 4vh;
-	font-family: 'PT Serif', serif;
+	font-family: 'Lato', sans-serif;
 	color: #156391;
 }
 
 div.projectscontent > h3 + p {
 	font-size: 2vh;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 5vh auto;
 	color: black;	
 }
@@ -270,7 +273,7 @@ div.gallerycontent {
 	transform: translate(-50%,-50%);
 	width: 80%;
 	font-size: 4vh;
-	font-family: 'PT Serif', serif;
+	font-family: 'Lato', sans-serif;
 	color: #156391;
 	
 }
