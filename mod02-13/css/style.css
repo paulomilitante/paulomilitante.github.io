@@ -42,7 +42,8 @@ div.logocontainer {
 	margin: 0;
 	padding: 2vh;
 	color: #156391;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 	font-size: 1.6vh;
 	text-decoration: none;
 	text-align: center;
@@ -131,14 +132,15 @@ div.homecontent {
 	color: #edf5e1;
 	text-shadow: 3px 3px 10px black;
 	font-size: 4vh;
-	font-family: 'PT Serif', serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 }
 
 div.homecontent > h1 + p {
 	color: #edf5e1;
 	text-shadow: 2px 2px 5px black;
 	font-size: 3vh;
-	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 3vh auto;
 }
 
