@@ -1,0 +1,137 @@
+/*CSS RESET*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*BACKGROUND BACKGROUND BACKGROUND BACKGROUND*/
+.background > figure {
+	animation: imageAnimation 30s linear infinite 0s;
+  	backface-visibility: hidden;
+  	background-size: cover;
+  	background-position: center center;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	color: transparent;
+  	height: 100%;
+  	left: 0;
+  	opacity: 0;
+  	position: absolute;
+  	top: 0;
+  	width: 100%;
+  	z-index: 0;
+}
+
+.textbox {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+
+}
+
+.background > figure:nth-child(1) { 
+	background-image: url('../image/image1.jpg'); 
+}
+
+.background > figure:nth-child(2) {
+  	animation-delay: 6s;
+  	background-image: url('../image/image2.jpg');
+}
+
+.background > figure:nth-child(3) {
+  	animation-delay: 12s;
+  	background-image: url('../image/image3.jpg');
+}
+
+.background > figure:nth-child(4) {
+  	animation-delay: 18s;
+  	background-image: url('../image/image4.jpg');
+}
+
+.background > figure:nth-child(5) {
+  	animation-delay: 24s;
+  	background-image: url('../image/image5.jpg');
+}
+
+
+@keyframes imageAnimation {  
+	0% {
+ 		animation-timing-function: ease-in;
+ 		opacity: 0;
+	}
+ 	8% {
+ 		animation-timing-function: ease-out;
+ 		opacity: 1;
+	}
+ 	17% {
+ 		opacity: 1
+	}
+ 	25% {
+ 		opacity: 0
+	}
+ 	100% {
+ 		opacity: 0
+	}
+}
+
+/*BACKGROUND BACKGROUND BACKGROUND BACKGROUND*/
+
+/*NAVBAR NAVBAR NAVBAR NAVBAR*/
+
+.navbox {
+	height: 15%;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+}
+
+.logo {
+	float: left;
+	height: 100%;
+	padding: 5% 5%;
+	margin-left: 5%;
+}
+
+.logo > a > img {
+	width: 60px;
+}
+
+.navbar {
+	float: right;
+	height: 100%;
+	padding: 5% 5%;
+	color: white;
+	margin-right: 10%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+label {
+	float: right;
+	font-size: 2.5em
+}
+
+#toggle,
+.menu {
+	display: none;
+}
+
+#toggle:checked + div.menu {
+    display: block;
+}
+
+/*NAVBAR NAVBAR NAVBAR NAVBAR*/
+
+
