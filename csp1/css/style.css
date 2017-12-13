@@ -37,7 +37,7 @@ body {
 .background > figure:nth-child(2) {
   	animation-delay: 5s;
   	background-image: url('../image/image2.jpg');
-  	background-position: left center;
+  	background-position: center center;
 }
 
 .background > figure:nth-child(3) {
