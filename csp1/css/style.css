@@ -135,8 +135,6 @@ body {
 	color: #66fcf1;
 	background-color: rgba(31, 40, 51, .9);
 	width: 100%;
-	border-top: 1px solid #66fcf1;
-	border-bottom: 1px solid #66fcf1;
 	position: absolute;
 	top: 30%;
 	text-align: center;
@@ -217,8 +215,6 @@ body {
 .gallerycontent {
 	margin-top: 5%;
 	background-color: rgba(31, 40, 51, 1);
-	border-top: 1px solid #66fcf1 ;
-	border-bottom: 1px solid #66fcf1;
 }
 
 .about1 div.aheader {
@@ -258,6 +254,10 @@ div.servicetext > p > a {
 .contactinfo > p > a,
 .contactinfo > p {
 	color: #fff;
+}
+
+.contactinfo > p > a:hover {
+	color: #66fcf1;
 }
 
 .contacttext,
@@ -334,6 +334,11 @@ footer {
 	color: #45a29e;
 	text-shadow: 3px 3px 5px #1f2833;
 	border-style: none;
+}
+
+.gallerycontent {
+	border-top: 1px solid #45a29e ;
+	border-bottom: 1px solid #45a29e;
 }
 
 /*GALLERY GALLERY GALLERY GALLERY*/
