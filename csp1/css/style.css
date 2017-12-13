@@ -105,7 +105,7 @@ body {
 }
 
 .navbar-brand {
-	padding: 15px 20px;
+	padding: 10px 20px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -120,8 +120,12 @@ body {
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	background-color: rgba(31, 40, 51, .9);
+	background-color: rgba(31, 40, 51, 1);
 	border-bottom: 1px solid #66fcf1;
+}
+
+.navbar-inverse .navbar-toggle {
+	padding: 30px 20px;
 }
 /*NAVBAR NAVBAR NAVBAR NAVBAR*/
 
@@ -184,9 +188,13 @@ body {
   	left: 0;
 }
 
-.wrapper2 {
-	background-image: url('../image/image4.jpg');
+.containercontent,
+.contact1 {
+	position: absolute;
+	top: 20%;
+	z-index: 0;
 }
+
 
 .about1 {
 	margin-top: 5%;
@@ -226,6 +234,10 @@ div.content > a {
 
 /*CONTACT CONTACT CONTACT CONTACT*/
 
+.wrapper2 {
+	background-image: url('../image/image4.jpg');
+}
+
 .contact1 > .row div,
 .contactinfo > p > a {
 	color: #fff;
@@ -239,7 +251,7 @@ div.content > a {
 	font-size: 3.5em;
 	margin: 30% auto;
 	color: #45a29e;
-	text-shadow: 3px 3px 10px #1f2833;
+	text-shadow: 3px 3px 5px #1f2833;
 }
 
 .contacttext h2 {
