@@ -175,7 +175,9 @@ body {
 /*ABOUT ABOUT ABOUT ABOUT*/
 
 .wrapper1,
-.wrapper2 {
+.wrapper2,
+.wrapper3,
+.wrapper4 {
 	background-image: url('../image/image1.jpg');
 	background-size: cover;
   	background-attachment: fixed;
@@ -188,19 +190,35 @@ body {
   	left: 0;
 }
 
+.wrapper2 {
+	background-image: url('../image/image4.jpg');
+}
+
+.wrapper3 {
+	background-image: url('../image/image2.jpg');
+}
+
+.wrapper4 {
+	background-image: url('../image/image3.jpg');
+}
+
 .containercontent,
-.contact1 {
+.contact1,
+.service1,
+.gallery1 {
 	position: absolute;
 	top: 20%;
 	z-index: 0;
 }
 
 
-.about1 {
+.about1,
+.servicemap,
+.gallerycontent {
 	margin-top: 5%;
 	background-color: rgba(31, 40, 51, 1);
 	border-top: 1px solid #66fcf1 ;
-	border-bottom: 1px solid #66fcf1 ;
+	border-bottom: 1px solid #66fcf1;
 }
 
 .about1 div.aheader {
@@ -223,7 +241,8 @@ div.content > p {
 	font-size: 4.5vmin;
 }
 
-div.content > a {
+div.content > a,
+div.servicetext > p > a {
 	padding: 3%;
 	margin: 10% 0 20% 0;
 	color: #fff;
@@ -234,16 +253,15 @@ div.content > a {
 
 /*CONTACT CONTACT CONTACT CONTACT*/
 
-.wrapper2 {
-	background-image: url('../image/image4.jpg');
-}
 
 .contact1 > .row div,
-.contactinfo > p > a {
+.contactinfo > p > a,
+.contactinfo > p {
 	color: #fff;
 }
 
-.contacttext {
+.contacttext,
+.servicetext {
 	background-color: rgba(31, 40, 51, .9);
 }
 
@@ -254,13 +272,18 @@ div.content > a {
 	text-shadow: 3px 3px 5px #1f2833;
 }
 
-.contacttext h2 {
+.contacttext h2,
+.servicetext h3,
+.gallerycontent h3 {
 	margin: 5% auto;
 	color: #66fcf1;
 }
-.contacttext > p {
+.contacttext > p,
+.servicetext h4,
+.servicetext p {
 	margin: 15% auto;
 	font-family: 'Raleway', sans-serif;
+	color: #fff;
 }
 
 footer {
@@ -274,4 +297,43 @@ footer {
 }
 
 
-/*CONTACT CONTACT CONTACT CONTACT
+/*CONTACT CONTACT CONTACT CONTACT*/
+
+/*SERVICES SERVICES SERVICES SERVICES*/
+
+.servicetext h4,
+.servicetext p {
+	margin: 3% auto;
+}
+
+.servicetext {
+	margin-top: 2%;
+}
+
+.servicemap {
+	background-color: rgba(31, 40, 51, 1);
+}
+.servicemap > iframe {
+	margin: 5% auto;
+}
+
+/*SERVICES SERVICES SERVICES SERVICES*/
+
+/*GALLERY GALLERY GALLERY GALLERY*/
+.gallerycontent > a > img {
+	width: 90%;
+	margin: 5% 5%;
+}
+.gallerycontent	{
+	margin-top: 0;
+}
+
+.gallerycontent i {
+	font-size: 3.5em;
+	margin: 10% 5%;
+	color: #45a29e;
+	text-shadow: 3px 3px 5px #1f2833;
+	border-style: none;
+}
+
+/*GALLERY GALLERY GALLERY GALLERY*/
