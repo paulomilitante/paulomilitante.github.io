@@ -1,4 +1,4 @@
-/*CSS RESET*/
+CSS RESET*/
 * {
 	margin: 0;
 	padding: 0;
@@ -106,10 +106,11 @@ body {
 	border-color: transparent;
 }
 
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-collapse,
+ .navbar-inverse .navbar-form {
 	background-color: rgba(31, 40, 51, 1);
-	border-bottom: 1px solid #66fcf1;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -251,11 +252,13 @@ div.servicetext > p > a {
 .contacttext,
 .servicetext {
 	background-color: rgba(31, 40, 51, .9);
+	border-radius: 10px;
 }
 
 .social i {
 	font-size: 3.5em;
-	margin: 30% auto;
+	margin: 30% 25%;
+	padding: 0;
 	color: #45a29e;
 	text-shadow: 3px 3px 5px #1f2833;
 }
@@ -273,17 +276,6 @@ div.servicetext > p > a {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
 }
-
-footer {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	height: 10%;
-	background-color: rgba(31, 40, 51, 1);
-	border-top: 1px solid #66fcf1;
-}
-
 
 /*CONTACT CONTACT CONTACT CONTACT*/
 
@@ -311,6 +303,7 @@ footer {
 .gallerycontent > a > img {
 	width: 90%;
 	margin: 5% 5%;
+	box-shadow: 3px 3px 10px #45a29e;
 }
 .gallerycontent	{
 	margin-top: 0;
@@ -330,3 +323,335 @@ footer {
 }
 
 /*GALLERY GALLERY GALLERY GALLERY*/
+
+
+/*TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET*/
+
+@media only screen and (min-width: 421px) and (max-width: 960px) {
+	
+	/*INDEX INDEX INDEX*/
+
+	.textbox {
+		font-size: 2em;
+	}
+
+	.textbox h1,
+	.textbox h2 {
+		font-size: 2.5em;
+	}
+
+	.navbar-inverse .navbar-toggle:hover, 
+	.navbar-inverse .navbar-toggle:focus, 
+	.navbar-inverse .navbar-collapse, 
+	.navbar-inverse .navbar-form {
+		background-color: transparent;
+		font-size: 2.5vw;
+	}
+	.nav > li > a {
+		padding: 15px 10px;
+	}
+
+	.boxlink h4 {
+		font-size: 2.5em;
+	}
+
+	/*INDEX INDEX INDEX*/
+	/*HOME HOME HOME*/
+
+	.containercontent {
+		width: 100%;
+	}
+	div.aheader h2 {
+		font-size: 5em;
+	}
+
+	.about1 div.aheader{
+		margin: 15% 0;
+	}
+
+	div.content > a {
+		font-size: 2em;
+	}
+	/*HOME HOME HOME*/
+
+	/*SERVICES SERVICES SERVICES*/
+
+	.service1 {
+		width: 100%;
+	}
+	.servicetext {
+		font-size: 1.8em;
+	}
+
+	.servicetext h3,
+	.servicetext h4 {
+		font-size: 1.5em
+	}
+
+	.servicemap > iframe {
+		height: 400px;
+	}
+
+	/*SERVICES SERVICES SERVICES*/
+	/*GALLERY GALLERY GALLERY*/
+
+	.gallery1 {
+		width: 100%;
+	}
+	.gallerycontent {
+		font-size: 1.5em;
+	}
+	.gallerycontent > h3 {
+		font-size: 2em;
+	}
+
+	.gallerycontent i {
+		margin: 10% 15%;
+		font-size: 5.5em;
+	}
+	/*GALLERY GALLERY GALLERY*/
+	/*CONTACT CONTACT CONTACT*/
+	.social {
+		font-size: 1.7em;
+	}
+
+	.contacttext {
+		font-size: 2em;
+	}
+
+	.contacttext > h2 {
+		font-size: 2em;
+	}
+
+	/*CONTACT CONTACT CONTACT*/
+}
+
+/*TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET*/
+
+/*DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP*/
+
+@media only screen and (min-width: 961px) {
+	/*INDEX INDEX INDEX*/
+	.navbar-inverse .navbar-toggle:hover, 
+	.navbar-inverse .navbar-toggle:focus, 
+	.navbar-inverse .navbar-collapse, 
+	.navbar-inverse .navbar-form {
+		background-color: transparent;
+		font-size: 1.5vw;
+		margin: 3% 1%;
+		font-weight: bold;
+	}
+
+	.navbar-inverse .navbar-nav > li > a:hover {
+		border-bottom: 2px solid #66fcf1;
+	}
+
+	/*INDEX INDEX INDEX*/
+	.textbox {
+		color: #66fcf1;
+		background-color: rgba(31, 40, 51, .4);
+		border-radius: 10px;
+		position: absolute;
+		text-align: left;
+	}
+
+	.textbox1,
+	.textbox2 {
+		width: 70vh;
+		top: 20%;
+		left: 45%;		
+	}
+
+	.textbox2 {
+		left: 40%;
+		top: 20%;
+	}
+
+	.textbox3,
+	.textbox4 {
+		width: 90vh;
+		left: 3%;
+		top: 20%;
+	}
+
+	.textbox4 {
+		width: 50vh;
+		left: 5%;
+	}
+
+	.textbox h1,
+	.textbox h2 {
+		font-size: 12vh;
+		font-weight: bolder;
+	}
+
+	.textbox p {
+		display: none;
+	}
+
+	.boxlink {
+		position: absolute;
+		transform: translate(0,0);
+		background-color: rgba(31, 40, 51, .5);
+		border-radius: 5px;
+		padding: 1vh;
+		border: 1px solid #66fcf1;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.boxlink1 {
+		left: 45%;
+		top: 70%;
+	}
+
+	.boxlink2 {
+		left: 40%;
+		top: 55%;
+	}
+
+	.boxlink3 {
+		left: 3%;
+		top: 73%;
+	}
+
+	.boxlink4 {
+		left: 5%;
+		top: 68%;
+	}
+
+	.boxlink > a > h4 {
+		color: #feffff;
+		font-family: 'Raleway', sans-serif;
+		font-size: 3vh;
+	}
+
+	/*ABOUT ABOUT ABOUT*/
+	.containercontent {
+		width: 100%;
+		top: 10%;
+	}
+
+	.about1 {
+		width: 48%;
+		float: left;
+		margin: 5% 1% 3vh;
+		height: 75vh;
+		background-color: rgba(31, 40, 51, .8);
+	}
+
+	div.aheader h2 {
+		font-size: 8vh;
+	}
+
+	div.content > p {
+		font-size: 3.6vh;
+	}
+
+	div.content > a {
+		font-size: 2vh;
+	}
+
+	/*SERVICES SERVICES SERVICES*/
+	.service1 {
+		width: 47%;
+	}
+
+	.servicetext {
+		margin: 2vh 2vw;
+	}
+
+	.servicemap {
+		position: absolute;
+		left: 105%;
+		top: 0;
+		background-color: rgba(31, 40, 51, .9);
+
+	}
+
+	.servicemap > iframe {
+		height: 35vh;
+		margin-top: 2vh;
+	}
+
+	.servicetext h3 {
+		font-size: 5vh;
+	}
+
+	.servicetext h4 {
+		font-size: 3.5vh;
+	}
+
+	.servicetext p {
+		font-size: 2vh;
+	}
+	/*SERVICES SERVICES SERVICES*/
+	/*GALLERY GALLERY GALLERY*/
+	.gallery1 {
+		width: 100%;
+	}
+	.gallerycontent {
+		width: 28vw;
+		margin: 1vh 2vw;
+		height: 35vh;
+		background-color: rgba(31, 40, 51, .7);
+		border: none;
+		border-radius: 10px;
+	}
+
+	.gallerysocial {
+		display: none;
+	}
+
+	.gallerycontent > a > img {
+		display: block;
+		width: 60%;
+		margin: 3vh auto;
+		box-shadow: 3px 3px 10px #45a29e;
+	}
+
+	.gallerycontent > a > img:hover {
+		box-shadow: 5px 5px 15px #45a29e;
+	}
+
+	.gallerycontent h3 {
+		font-size: 2.5vh;
+	}
+	/*GALLERY GALLERY GALLERY*/
+
+	/*CONTACT CONTACT CONTACT*/
+	.contacttext {
+		font-size: 3vh;
+		background-color: rgba(31, 40, 51, .7);
+	}
+
+	.contacttext > h2 {
+		font-size: 7vh;
+	}
+
+	.contacttext > p {
+		margin: 10% auto;	
+	}
+
+	.social {
+		font-size: 2.5vh;
+	}
+
+	.social i {
+		margin: 7.5vh 40%;
+	}
+
+	/*CONTACT CONTACT CONTACT*/
+}
+/*DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP*/
+
+
+
+
+
+
+
+
+
+
+
+
