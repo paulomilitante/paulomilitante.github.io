@@ -327,7 +327,7 @@ div.servicetext > p > a {
 
 /*TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET*/
 
-@media only screen and (min-width: 421px) and (max-width: 960px) {
+@media only screen and (min-width: 421px) and (max-width: 1024px) {
 	
 	/*INDEX INDEX INDEX*/
 
@@ -345,7 +345,8 @@ div.servicetext > p > a {
 	.navbar-inverse .navbar-collapse, 
 	.navbar-inverse .navbar-form {
 		background-color: transparent;
-		font-size: 2.5vw;
+		margin: 5% 3%;
+		font-size: 2vw;
 	}
 	.nav > li > a {
 		padding: 15px 10px;
@@ -430,15 +431,15 @@ div.servicetext > p > a {
 
 /*DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP*/
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 1025px) {
 	/*INDEX INDEX INDEX*/
 	.navbar-inverse .navbar-toggle:hover, 
 	.navbar-inverse .navbar-toggle:focus, 
 	.navbar-inverse .navbar-collapse, 
 	.navbar-inverse .navbar-form {
 		background-color: transparent;
-		font-size: 1.5vw;
-		margin: 3% 1%;
+		font-size: 1vw;
+		margin: 3vh 1%;
 		font-weight: bold;
 	}
 
