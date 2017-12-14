@@ -13,6 +13,10 @@ body {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .background > figure {
 	animation: imageAnimation 20s linear infinite 0s;
   	backface-visibility: hidden;
