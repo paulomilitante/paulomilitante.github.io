@@ -18,11 +18,18 @@ $result2 = mysqli_query($conn,$sql2);
 $row = mysqli_fetch_assoc($result2);
 extract($row);
 
+session_start();
+
+$_SESSION['username'] = $username;
+$_SESSION['user_id'] = $id;
+$_SESSION['firstname'] = $firstname;
+$_SESSION['role'] = $role_id;
+
 $sql3 = "INSERT INTO orders (user_id,paid_status) VALUES ($id,'FALSE')";
 
 mysqli_query($conn,$sql3) or die(mysqli_error($conn));
 
-header('location: index.php');
+header('location: items.php');
 	
 
 ?>
