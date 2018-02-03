@@ -12,7 +12,7 @@ function display_content() {
 					<h3 class='teal-text text-darken-3'>Our Story</h3>
 				</div>
 				<div class='row'>
-					<p>Black Wing is a small concept brand-workshop which experiments on various aspects of the shoe making industry. From reviving the custom made mid-range pricing to experimenting with handcrafted shoe construction methods, we strive to discover and recover the art of shoe making with the spirit of discovery and passion to find new ways in adapting shoe making to our conditions here in Marikina.</p><br>
+					<p>Calzolaio is a small concept brand-workshop which experiments on various aspects of the shoe making industry. From reviving the custom made mid-range pricing to experimenting with handcrafted shoe construction methods, we strive to discover and recover the art of shoe making with the spirit of discovery and passion to find new ways in adapting shoe making to our conditions here in Marikina.</p><br>
 
 					<p>We want to change the way things are done by experimenting with concepts that big businesses cannot afford to experiment with. The concept that every modern Filipino should have access to good quality custom made shoes is nothing new but has been gone for over a decade. The commercial success of big brands and big malls has pushed commercialism to the point wherein it offers nothing new to the public. We want to provide an alternative by establishing a small workshop with a core group of skilled workers who are also driven to improve their craft.</p><br>
 

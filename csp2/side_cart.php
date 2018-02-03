@@ -58,9 +58,9 @@ echo "
 			<li class='checkout'>
 	    		<form class='container' action='clear_cart.php'>
 	    			<div class='row'>
-	    				<button type='submit' class='col s8 offset-s2 waves-effect waves-light btn red lighten-3'>CLEAR<i class='material-icons right'>shopping_cart</i></button>
-		    			<a href='checkout.php' class='col s8 offset-s2 waves-effect waves-light btn teal darken-3'>CHECKOUT<i class='material-icons right'>attach_money</i></a>
-	    			</div>
+	    				<button type='submit' class='col s8 offset-s2 waves-effect waves-light btn red lighten-3'>CLEAR<i class='material-icons right'>shopping_cart</i></button>";
+		    		echo	($grand_total == 0) ? "<a href='checkout.php' class='col s8 offset-s2 waves-effect waves-light btn teal darken-3' disabled>CHECKOUT<i class='material-icons right'>attach_money</i></a>" : "<a id='checkoutbtn' href='checkout.php' class='col s8 offset-s2 waves-effect waves-light btn teal darken-3'>CHECKOUT<i class='material-icons right'>attach_money</i></a>";
+	    	echo	"</div>
 	    		</form>	
 	    	</li>
 	</ul>";

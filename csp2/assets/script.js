@@ -276,7 +276,10 @@ $(".deleteCart").click(function() {
 			$itemD.remove();
 			$('#cartQuantity').html(data[0]);
 			$('#grandTotal').html('Total: Php ' + data[1]);
-			Materialize.toast("Item removed!&nbsp;<i class='material-icons teal-text'>check</i>", 2000);			
+			Materialize.toast("Item removed!&nbsp;<i class='material-icons teal-text'>check</i>", 2000);
+			if (data[1] == 0) {
+				$('#checkoutbtn').attr('disabled','true');
+			}			
 		})
 });
 
@@ -373,9 +376,10 @@ $('.profileEditBtn').on('click', function() {
 			'firstname' : firstname,
 			'lastname' : lastname,
 			'email' : email},
-			function() {
+			function(data) {
 				$('.profileEditBtn').attr('disabled','true');
 				Materialize.toast("Changes saved!&nbsp;<i class='material-icons teal-text'>check</i>", 2000);
+				Materialize.toast("Changes will take effect upon re-login&nbsp;<i class='material-icons teal-text'>update</i>", 3000);
 			});
 });
 

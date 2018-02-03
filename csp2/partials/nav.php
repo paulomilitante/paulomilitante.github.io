@@ -26,12 +26,14 @@
       <li class='center-align'><a href="#"><img class="imgLogo1" src="assets/logo2.png"></li>
       <?php 
         if (isset($_SESSION['username'])) {
+          if ($_SESSION['role'] === '3')
           echo "<li><a class='dropdown-button' href='#' data-activates='profileDropdown1'>Hello ".ucfirst($_SESSION['firstname'])."!<i class='material-icons right'>arrow_drop_down</i></a></li>";
-          if ($_SESSION['role'] !== '3')
-            echo "<li><a href='dashboard.php'>Dashboard</a></li>";
+          elseif ($_SESSION['role'] !== '3')
+            echo "<li><a href='dashboard.php'>Dashboard</a></li>";            
         }
-        else
-          echo "<li><a href='login.php'>Log-In</a></li>";
+        else {
+          echo "<li><a href='login.php'>Log In</a></li>";
+        }        
       ?>
       <li><a href="items.php">Products</a></li>
       <li><a href="about.php">About</a></li>

@@ -17,5 +17,7 @@ $sql = "UPDATE users SET
 
 mysqli_query($conn,$sql) or die(mysqli_error($conn));
 
+echo $firstname;
+
 
 ?>
