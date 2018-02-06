@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample for JS</title>
+	<link rel="stylesheet" type="text/css" href="samplejs.css">
+</head>
+<body>
+	
+	<h1 id="heading"></h1>
+
+	<button class="keypad" onclick="display(this.innerHTML)">7</button>
+	<button class="keypad" onclick="display(this.innerHTML)">8</button>
+	<button class="keypad" onclick="display(this.innerHTML)">9</button>
+	<button class="keypad" onclick="display(this.innerHTML)">/</button><br>
+	<button class="keypad" onclick="display(this.innerHTML)">4</button>
+	<button class="keypad" onclick="display(this.innerHTML)">5</button>
+	<button class="keypad" onclick="display(this.innerHTML)">6</button>
+	<button class="keypad" onclick="display(this.innerHTML)">*</button><br>
+	<button class="keypad" onclick="display(this.innerHTML)">1</button>
+	<button class="keypad" onclick="display(this.innerHTML)">2</button>
+	<button class="keypad" onclick="display(this.innerHTML)">3</button>
+	<button class="keypad" onclick="display(this.innerHTML)">-</button><br>
+	<button class="keypad" onclick="display(this.innerHTML)">0</button>
+	<button class="keypad" onclick="display(this.innerHTML)">.</button>
+	<button class="keypad" onclick="calculate()">=</button>
+	<button class="keypad" onclick="display(this.innerHTML)">+</button><br>
+	<button class="keypad" onclick="clr()">C</button>
+	<button class="keypad" onclick="backspace()"><=</button>
+	<button class="keypad" onclick="checkFive()"><5></button>
+	<button class="keypad" onclick="oddEven()">mod</button>
+
+	<h1 id="heading2">Month</h1>
+	Month:
+	<select id="month" onchange="showMonth()">
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	<option>6</option>
+	<option>7</option>
+	<option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	</select>
+	<!-- <input type="number" id="input1"><br>
+	<input type="number" id="input2"><br>
+	<button id="btn1" onclick="changeHTML(this.id)">Click Me 1!</button>
+	<button id="btn2" onclick="changeHTML(this.id)">Click Me 2!</button>
+	<button id="btn3" onclick="changeHTML(this.id)">Click Me 3!</button> -->
+
+	<script type="text/javascript" src="samplejs.js"></script>
+
+
+</body>
+</html>

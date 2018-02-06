@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p,
+h1 {
+	margin: 20px 5px;
+}
+
+#input1,
+#btn,
+#weight,
+#height,
+#btn2,
+h4 {
+	margin: 5px 5px;
+}
+
