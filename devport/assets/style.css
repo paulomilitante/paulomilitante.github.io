@@ -1,0 +1,107 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.fullBlock {
+	min-height: 100vh;
+}
+
+#mastHead {
+	background-image: url("img/masthead.jpg");
+	position: relative;
+}
+
+#portfolio {
+	background-image: url("img/portfolio.jpg");
+	position: relative;
+}
+
+footer {
+	position: relative;
+}
+
+#contact {
+	background-image: url("img/contact.jpg");
+}
+.container1 {
+	padding-top: 20vh;
+}
+
+.transitionLi {
+	opacity: 0;
+}
+
+nav {
+	z-index: 999;
+}
+
+#ugf,
+#calzolaio,
+#myexpenses {
+	position: relative;
+}
+
+.arrow {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+.arrow1 {
+	position: absolute;
+	top: -10%;
+	left: 50%;
+	transform: translate(-50%,0);
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translate(-50%,0);
+  }
+  40% {
+    transform: translate(-50%,-30px);
+  }
+  60% {
+    transform: translate(-50%,-15px);
+  }
+}
+
+.col {
+	margin-top: 20px; 
+}
+
+.circle {
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.profile {
+	background-image: url("img/profilepic.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+}
+
+.skills {
+	margin-top: 50px;
+}
+
+.description {
+	padding: 5px;
+}
+
+.projectImg {
+	width: 100%;
+}
